@@ -1,9 +1,9 @@
 -- ============================================================
--- 1. ADIM: TABLO YAPISI VE VERi  GENERASYONU
--- Amaç : Yüksek hacimli veri seti (3 Milyon Satır) oluşturmak.
+-- 1. ADIM: TABLO YAPISI VE VERİ GENERASYONU
+-- Amacı: Yüksek hacimli veri seti (3 Milyon Satır) oluşturmak.
 -- ============================================================
 
--- Tabloları  temizle (Varsa)
+-- Tabloları temizle (Varsa)
 DROP TABLE IF EXISTS siparisler;
 DROP TABLE IF EXISTS kullanicilar;
 
@@ -23,8 +23,8 @@ CREATE TABLE siparisler (
     siparis_tarihi TIMESTAMP DEFAULT NOW()
 );
 
--- Rastgele Veri Basma (Generate Series)\
-INSERT INTO kullanicilar (isim, sehir)\
+-- Rastgele Veri Basma (Generate Series)
+INSERT INTO kullanicilar (isim, sehir)
 SELECT 
     'Kullanici_' || i,
     (ARRAY['Ankara', 'Istanbul', 'Izmir', 'Bursa', 'Antalya'])[floor(random() * 5 + 1)]
