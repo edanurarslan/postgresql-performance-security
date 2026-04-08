@@ -1,6 +1,6 @@
 -- ============================================================
--- 2. ADIM: PERFORMANS ANALİZİ  VE İNDEKSEME STRATEJİLERİ 
--- Amaç : Query Plan analizi ve %75 performans artışı  sağlamak.
+-- 2. ADIM: PERFORMANS ANALİZİ VE İNDEKSEME STRATEJİLERİ
+-- Amacı: Query Plan analizi ve %75 performans artışı sağlamak.
 -- ============================================================
 
 -- TEST 1: İndekssiz Sorgu (Sequential Scan)
