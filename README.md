@@ -1,3 +1,5 @@
+# VİDEO LİNK: https://youtu.be/JYZUe4iiHGc
+
 # PostgreSQL Performance, Monitoring & Security Lab
 
 Bu proje, 3 milyon satırlık bir veri seti üzerinde performans darboğazlarının tespiti, ileri seviye indeksleme stratejileri ve kurumsal seviyede güvenlik protokollerinin uygulanmasını içeren kapsamlı bir **Database Administration (DBA)** vaka çalışmasıdır.
